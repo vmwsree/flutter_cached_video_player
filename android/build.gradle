@@ -37,9 +37,9 @@ android {
         disable 'InvalidPackage'
     }
     android {
-        compileOptions {
-            sourceCompatibility 1.8
-            targetCompatibility 1.8
+         compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
         }
     }
 
