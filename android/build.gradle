@@ -1,7 +1,7 @@
 group 'io.flutter.plugins.videoplayer'
 version '1.0-SNAPSHOT'
 def args = ["-Xlint:deprecation","-Xlint:unchecked","-Werror"]
-
+namespace "com.example.cached_video_player" 
 buildscript {
     repositories {
         google()
